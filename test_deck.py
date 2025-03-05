@@ -1,4 +1,6 @@
 import unittest
+
+from Deck import Deck
 class TestDeck(unittest.TestCase):
     def setUp(self):
         self.deck = Deck()

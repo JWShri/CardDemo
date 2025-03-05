@@ -1,3 +1,7 @@
+import unittest
+
+from hand import Hand
+
 class TestHand(unittest.TestCase):
     def setUp(self):
         self.hand = Hand()
